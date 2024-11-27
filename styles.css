@@ -38,3 +38,30 @@ body {
     letter-spacing: 0.3em;
     /* Увеличение ширины текста */
 }
+
+/* Стили для таймера */
+#countdown-container {
+    position: fixed; /* Фиксируем блок */
+    bottom: 20px;    /* Отступ от нижнего края */
+    left: 50%;       /* Центрируем по горизонтали */
+    transform: translateX(-50%); /* Смещаем блок влево на половину его ширины */
+    width: auto;     /* Ширина по содержимому */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #countdown {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ff6b6b;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #countdown span {
+    font-weight: 700;
+    color: #ffffff;
+  }
