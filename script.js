@@ -4,7 +4,7 @@ const hoverSound = document.getElementById('hover-sound');
 
 // Добавляем событие для изменения текста и воспроизведения звука при наведении
 textElement.addEventListener('mouseenter', () => {
-  textElement.textContent = 'мор 13.12.24'; // Изменяем текст
+  textElement.textContent = 'мор'; // Изменяем текст
   hoverSound.currentTime = 0; // Перемотка звука на начало
   hoverSound.play().catch((error) => {
     console.warn('Не удалось воспроизвести звук:', error);
